@@ -1,0 +1,20 @@
+{
+  "name": "readability-service",
+  "version": "1.0.0",
+  "author": "Daniel Nixon <dan.nixon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "express": "^4.16.2",
+    "flow-bin": "^0.57.3",
+    "flow-typed": "^2.2.0",
+    "jsdom": "^11.3.0"
+  },
+  "scripts": {
+    "init": "yarn install && yarn run flow-typed install && git submodule init && git submodule update",
+    "update-all": "yarn upgrade --latest && yarn run flow-typed update && git submodule update --remote",
+    "build": "babel src/ -d dist/",
+    "start": "node dist/app.js"
+  }
+}

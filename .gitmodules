@@ -1,0 +1,4 @@
+[submodule "src/readability"]
+	path = src/readability
+	url = https://github.com/mozilla/readability.git
+	branch = master
