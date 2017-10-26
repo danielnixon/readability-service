@@ -1,6 +1,6 @@
 {
   "name": "readability-service",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Daniel Nixon <dan.nixon@gmail.com>",
   "license": "MIT",
   "dependencies": {
