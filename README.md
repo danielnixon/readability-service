@@ -22,19 +22,20 @@ docker run -it -p 3000:3000 danielnixon/readability-service
 
 ```json
 {
+
+    "url": "https://www.theguardian.com/commentisfree/2015/jun/13/european-games-azerbaijan-athletes-not-role-models",
+    "lang": "en",
+    "readingTime": {
+        "lang": "en",
+        "minutesSlow": 8,
+        "minutesFast": 6
+    },
+    "title": "Baku reminds us our top athletes are overgrown infants | Nick Cohen | Opinion",
     "byline": "Nick Cohen",
-    "content": "<div id=\"readability-page-1\" class=\"page\"><p>The pretence that sportsmen and women are “role models” is impossible to maintain. It’s not just that no parent tells their teenage children to model their sex lives on premier league footballers ...</p>...</div>",
-    "dir": null,
     "excerpt": "The sports stars heading to the European Games in Azerbaijan have no comments on the dire politics of the host country",
     "length": 6411,
-    "textContent": "\nThe pretence that sportsmen and women are “role models” is impossible to maintain. It’s not just that no parent tells their teenage children to model their sex lives on premier league footballers ...",
-    "title": "Baku reminds us our top athletes are overgrown infants | Nick Cohen | Opinion",
-    "uri": {
-        "host": "www.theguardian.com",
-        "pathBase": "https://www.theguardian.com/commentisfree/2015/jun/13/",
-        "prePath": "https://www.theguardian.com",
-        "scheme": "https",
-        "spec": "https://www.theguardian.com/commentisfree/2015/jun/13/european-games-azerbaijan-athletes-not-role-models"
-    }
+    "dir": null,
+    "content": "<div id=\"readability-page-1\" class=\"page\"><p>The pretence that sportsmen and women are “role models” is impossible to maintain. It’s not just that no parent tells their teenage children to model their sex lives on premier league footballers ...</p>...</div>",
+    "textContent": "The pretence that sportsmen and women are “role models” is impossible to maintain. It’s not just that no parent tells their teenage children to model their sex lives on premier league footballers ..."
 }
 ```
