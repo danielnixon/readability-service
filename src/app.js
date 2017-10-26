@@ -1,8 +1,11 @@
 // @flow
 
-const express = require('express');
+"use strict";
+
+import express from 'express';
+import ReadabilityService from "./ReadabilityService";
+
 const app = express();
-const ReadabilityService = require("./ReadabilityService");
 
 app.get('/', function (req: express$Request, res: express$Response) {
   res.setHeader('Content-Type', 'application/json');
