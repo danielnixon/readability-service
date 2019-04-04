@@ -1,4 +1,7 @@
 # readability-service
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/danielnixon/readability-service.svg)](https://greenkeeper.io/)
+
 [Mozilla's fork of Readability](https://github.com/mozilla/readability) wrapped in a RESTful service.
 
 ## Usage
