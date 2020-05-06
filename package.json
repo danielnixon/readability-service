@@ -8,9 +8,9 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
     "express": "^4.17.1",
-    "flow-bin": "^0.117.0",
-    "flow-typed": "^2.6.2",
-    "jsdom": "^16.1.0"
+    "flow-bin": "^0.124.0",
+    "flow-typed": "^3.1.0",
+    "jsdom": "^16.2.2"
   },
   "scripts": {
     "init": "yarn install && yarn run flow-typed install && git submodule init && git submodule update",
