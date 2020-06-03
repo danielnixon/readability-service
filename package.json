@@ -8,7 +8,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
     "express": "^4.17.1",
-    "flow-bin": "^0.124.0",
+    "flow-bin": "^0.126.1",
     "flow-typed": "^3.1.0",
     "jsdom": "^16.2.2"
   },
